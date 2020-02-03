@@ -34,7 +34,7 @@ algorithm from both memory and time perspectives.
 The most memory consuming part of this algorithm is the memento table. Since this is a two dimensional
 array, our memory complexity is:
 ```
-O nW)
+O (nW)
 ```
 The most time-consuming part of this algorithm is related to the nested for loops. So by the same logic,
 our time complexity is also `O(nW)`.
@@ -91,7 +91,7 @@ Then open the `target/site/jacoco/index.html` to see the coverage report.
 ## Built With
 * [JUnit 5](https://junit.org/junit5/) - The testing framework on JVM.
 * [JoCoCo](https://github.com/jacoco/jacoco) - As our *Code Coverage* tool.
-* [Mockito](https://site.mockito.org/)
+* [Mockito](https://site.mockito.org/) A mocking framwork for unit testing.
 * [Maven](https://maven.apache.org) - As our build tool.
 
 and last but certainly not least:
